@@ -14,6 +14,6 @@
 1. `cd ~/linux-detective-lab`
 2. Explore `bureau/` en descendant dans les sous-dossiers.
 3. Affiche le contenu des fichiers jusqu'à trouver le drapeau.
-4. Valide : `./check.sh 1 "FLAG{...}"` (depuis le dossier du dépôt)
+4. Valide : ` bash check.sh 1 "FLAG{...}"` (depuis le dossier du dépôt)
 
 **Pour aller plus loin** : que fait `ls -l` de plus que `ls` ?
