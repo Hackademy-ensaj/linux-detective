@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Vérifie ta réponse sans jamais afficher la solution.
-# Usage : ./check.sh <niveau> <réponse>
-#   ex. : ./check.sh 1 "FLAG{...}"
+# Usage : bash check.sh <niveau> <réponse>
+#   ex. : bash check.sh 1 "FLAG{...}"
 set -e
 DIR="$(cd "$(dirname "$0")" && pwd)"
 
