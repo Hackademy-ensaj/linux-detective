@@ -1,4 +1,4 @@
-# 🕵️ Linux Detective
+# 🕵️ HACKademy --  Linux Detective
 
 Une mini-enquête dans le terminal pour **débuter sur Linux**, sans aucun prérequis.
 Projet de la cellule projets du club de cybersécurité.
