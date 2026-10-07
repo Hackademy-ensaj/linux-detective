@@ -6,7 +6,7 @@
 Une adresse IP a essayé beaucoup plus que les autres : c'est l'attaquant.
 
 **Mission** : trouve l'adresse IP qui apparaît le plus souvent. Ta réponse est l'adresse seule,
-par exemple `./check.sh 5 "1.2.3.4"`.
+par exemple `bash check.sh 5 "1.2.3.4"`.
 
 ## Indices (du plus léger au plus fort)
 1. Chaque ligne contient `from <adresse IP>`.
