@@ -21,7 +21,6 @@ Choisis **une** option selon ton matériel :
 - **Linux ou macOS** : ouvre simplement un terminal.
 - **Windows 10/11** : installe WSL (`wsl --install` dans PowerShell), puis ouvre Ubuntu.
 - **Pas de Linux ou PC léger** : utilise un terminal en ligne gratuit (par exemple GitHub Codespaces).
-- **Tu connais Docker** : utilise le `Dockerfile` fourni (voir plus bas).
 
 ## Démarrage
 
