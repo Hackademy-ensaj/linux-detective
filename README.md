@@ -56,6 +56,7 @@ Copie `docs/rapport-modele.md`, remplis-le avec tes commandes et captures d'écr
 puis publie-le sur ton propre GitHub (fork du dépôt). Tu auras une première réalisation
 concrète à présenter.
 
+⚠️ Ne lance pas setup.sh avec sudo : le niveau 4 ne fonctionnerait plus.
 
 ## Tu bloques ?
 
