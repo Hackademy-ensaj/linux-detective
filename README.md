@@ -18,16 +18,18 @@ en informatique ou en cybersécurité n'est nécessaire : tout s'apprend en chem
 
 Choisis **une** option selon ton matériel :
 
+- **Le plus simple, sans rien installer** : GitHub Codespaces. Il te faut seulement un compte GitHub, et tu obtiens un terminal Linux dans ton navigateur.
 - **Linux ou macOS** : ouvre simplement un terminal.
-- **Windows 10/11** : installe WSL (`wsl --install` dans PowerShell), puis ouvre Ubuntu.
-- **Pas de Linux ou PC léger** : utilise un terminal en ligne gratuit (par exemple GitHub Codespaces).
+- **Windows 10/11** : installe WSL (`wsl --install` dans PowerShell), puis ouvre Ubuntu. Tu peux aussi utiliser Git Bash, mais le niveau 4 n'y fonctionne pas.
+
+> Le niveau 4 (permissions) nécessite Linux, WSL ou Codespaces ; il ne fonctionne pas sous Git Bash.
 
 ## Démarrage
 
 ```bash
-git clone https://github.com/<ton-compte-ou-celui-du-club>/linux-detective.git
+git clone https://github.com/sabsibonaama/linux-detective.git
 cd linux-detective
-./setup.sh
+bash setup.sh
 ```
 
 Le script crée ton terrain d'enquête dans `~/linux-detective-lab`.
@@ -36,7 +38,7 @@ Ensuite ouvre `levels/niveau-1.md` et suis les consignes.
 Quand tu penses avoir trouvé la réponse :
 
 ```bash
-./check.sh 1 "FLAG{ta_reponse}"
+bash check.sh 1 "FLAG{ta_reponse}"
 ```
 
 Le script te dit si c'est bon, sans jamais révéler la solution.
@@ -55,7 +57,7 @@ Copie `docs/rapport-modele.md`, remplis-le avec tes commandes et captures d'écr
 puis publie-le sur ton propre GitHub (fork du dépôt). Tu auras une première réalisation
 concrète à présenter.
 
-⚠️ Ne lance pas setup.sh avec sudo : le niveau 4 ne fonctionnerait plus.
+⚠️ Ne lance pas `setup.sh` avec `sudo` : le niveau 4 ne fonctionnerait plus.
 
 ## Tu bloques ?
 
