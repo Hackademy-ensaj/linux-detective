@@ -56,12 +56,6 @@ Copie `docs/rapport-modele.md`, remplis-le avec tes commandes et captures d'écr
 puis publie-le sur ton propre GitHub (fork du dépôt). Tu auras une première réalisation
 concrète à présenter.
 
-## Docker (optionnel)
-
-```bash
-docker build -t linux-detective .
-docker run -it linux-detective
-```
 
 > ⚠️ Si tu lances `setup.sh` en tant que **root**, le niveau 4 n'a plus de sens
 > (root ignore les permissions). Utilise ton compte normal, ou le Dockerfile fourni
