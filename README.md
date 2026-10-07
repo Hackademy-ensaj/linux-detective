@@ -57,10 +57,6 @@ puis publie-le sur ton propre GitHub (fork du dépôt). Tu auras une première r
 concrète à présenter.
 
 
-> ⚠️ Si tu lances `setup.sh` en tant que **root**, le niveau 4 n'a plus de sens
-> (root ignore les permissions). Utilise ton compte normal, ou le Dockerfile fourni
-> qui crée un utilisateur non-root.
-
 ## Tu bloques ?
 
 Regarde `docs/aide-memoire.md`, puis pose ta question sur le Discord du club.
